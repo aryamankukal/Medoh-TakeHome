@@ -47,3 +47,12 @@ To: (510) 386-7466
 Message: Hi! Dr doctorName has invited you to view their Medoh profile: http://localhost:3000/visit/doctorName?ref=xxxxxx
 ----------------
 ```
+
+## How would you improve this tool in a real production setting?
+
+- Implement authentication to make sure only verified doctors are able to send invites
+- Write RLS policies so that only authenticated doctors can access, insert, or view their own invites
+- Validate phone numbers a bit more in depth for format, country code, etc.
+- Use Twilio to actually deliver messages
+- Add rate limiting per hour or day to prevent spam and to not go over user's sms budget
+- Add more to UI in terms of animations and make it more dynamic all throughout
