@@ -278,6 +278,18 @@ export default function DoctorInvitePage() {
                       ? `A link to your profile was sent to ${csvSentCount} number${csvSentCount === 1 ? '' : 's'}.`
                       : <>A link to your profile was sent to <span className="font-mono">{phone}</span>.</>}
                   </div>
+                  <button
+                    className="mt-2 px-6 py-2 bg-[#fb8500] hover:bg-orange-500 text-white font-semibold rounded-lg shadow transition cursor-pointer"
+                    onClick={() => {
+                      setSent(false);
+                      setPhone('');
+                      setCsvPhones([]);
+                      setCsvResult(null);
+                      setCsvSentCount(0);
+                    }}
+                  >
+                    Send more invites
+                  </button>
                 </div>
               )}
             </div>
