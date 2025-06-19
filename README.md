@@ -11,7 +11,7 @@
 - **Clean, Medoh-themed UI:** Orange/white, responsive, and modern.
 - **Doctor name & patient phone input:** With validation and green checkmarks for valid entries.
 - **Send Invite button:** Enabled only when inputs are valid.
-- **Simulated SMS sending:** Prints SMS to terminal with a unique, reusable link (`/visit/[doctorName]?ref=xxxxxx`).
+- **Simulated SMS sending:** Prints SMS to terminal with a unique, reusable link with ref code (`/visit/[doctorName]?ref=xxxxxx`).
 - **Bulk CSV upload:** Send invites to multiple patients at once.
 - **Confirmation messages:** Clear feedback after sending (single or bulk).
 - **Invite history:** View all sent invites in a modal.
@@ -44,8 +44,6 @@ When you send an invite, a simulated SMS is printed to your terminal in the foll
 ```
 --- MOCK SMS ---
 To: (510) 386-7466
-Message: Hi! Dr john has invited you to view their Medoh profile: http://localhost:3000/visit/john?ref=k9174o
+Message: Hi! Dr doctorName has invited you to view their Medoh profile: http://localhost:3000/visit/doctorName?ref=xxxxxx
 ----------------
 ```
-
-The link is unique for each invite and includes the doctor's name and a unique ref code.
