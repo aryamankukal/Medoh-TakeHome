@@ -26,7 +26,6 @@
    ```
 2. **Configure Supabase:**
    - Create a Supabase project and an `invites` table with columns: `doctor_id` (text), `phone` (text), `sent_at` (timestamp, default now()).
-   - Set up RLS as needed for your use case.
    - Add your Supabase keys to `.env.local`:
      ```env
      NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
