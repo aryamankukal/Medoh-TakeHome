@@ -1,8 +1,6 @@
 # Medoh Doctor Invite Tool
 
-## Demo:
-
-[Watch the demo.](https://www.youtube.com/watch?v=An-YolEZcz8)
+## [Watch the demo](https://www.youtube.com/watch?v=An-YolEZcz8)
 
 ## Technologies Used
 - Next.js
