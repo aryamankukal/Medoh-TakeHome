@@ -2,7 +2,7 @@
 
 ## Demo:
 
-[![Watch the demo](https://img.youtube.com/vi/An-YolEZcz8/0.jpg)](https://www.youtube.com/watch?v=An-YolEZcz8)
+[Watch the demo.](https://www.youtube.com/watch?v=An-YolEZcz8)
 
 ## Technologies Used
 - Next.js
