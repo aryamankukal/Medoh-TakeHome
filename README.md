@@ -7,8 +7,6 @@
 - Supabase
 - Tailwind CSS
 
-A modern web tool for doctors to send their Medoh profile to patients via SMS, with support for single and bulk (CSV) invites.
-
 ## Features
 - **Clean, Medoh-themed UI:** Orange/white, responsive, and modern.
 - **Doctor name & patient phone input:** With validation and green checkmarks for valid entries.
