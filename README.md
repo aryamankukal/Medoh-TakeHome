@@ -10,7 +10,7 @@
 - Tailwind CSS
 
 ## Features
-- **Clean, Medoh-themed UI:** Orange/white, responsive, and modern.
+- **Medoh-themed UI:** Orange/white and very responsive, clean
 - **Doctor name & patient phone input:** With validation and green checkmarks for valid entries.
 - **Send Invite button:** Enabled only when inputs are valid.
 - **Simulated SMS sending:** Prints SMS to terminal with a unique, reusable link with ref code (`/visit/[doctorName]?ref=xxxxxx`).
